@@ -1,6 +1,6 @@
 # C++23 `import std` in CMake
 
-A small CMake script to auto-enable the C++23 standard library module (`import std`).
+A CMake script to auto-enable the C++23 standard library module (`import std`).
 
 ## What this is
 
@@ -22,7 +22,7 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(example main.cpp)
 ```
 
-For a complete example, see the CMake and C++ sources in this repository.
+For a complete example, see `example`.
 
 ## Requirements
 
